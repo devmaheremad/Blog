@@ -1,0 +1,40 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog {
+    margin: 20px auto;
+    max-width: 650px;
+    width: 80%;
+    border: 20px solid #BDC3C7;
+    padding: 20px;
+}
+
+.blog .article .date {
+    color: #6F98DB;
+    letter-spacing: 0.5rem;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.blog .article .title {
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 2em
+}
+
+.blog .article .paragraph:first-of-type {
+    border-left: 5px solid #BDC3C7;
+    padding: 8px;
+}
+
+.blog .article p {
+    font-size: 1.1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 20px 0;
+}
